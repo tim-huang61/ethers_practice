@@ -8,7 +8,7 @@ const EthersCh01 = () => {
     const getBalance = async () => {
         try {
             const provider = ethers.getDefaultProvider('homestead');
-            const eth = await provider.getBalance(`vitalik.eth`);
+            const eth = await provider.getBalance('vitalik.eth');
             setBalance(`${formatEther(eth)} ETH`);
         } catch (error) {
             console.log(error);
@@ -18,9 +18,9 @@ const EthersCh01 = () => {
     return <>
         <h1>EthersCh01</h1>
         <div>
-            <button onClick={getBalance}>Get Vitalik's Eth</button>
+            <button onClick={getBalance}>Get Vitalik&apos;s Eth</button>
             <div>
-                <p>Vitalik's Eth: {balance}</p>
+                <p>Vitalik&apos;s Eth: {balance}</p>
             </div>
         </div>
     </>

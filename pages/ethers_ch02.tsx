@@ -40,14 +40,14 @@ const EthersCh01 = () => {
         </div>
         <div>
             <h3>ETH</h3>
-            <p>Tim's Eth: {mETH?.balance}</p>
+            <p>Tim&apos;s Eth: {mETH?.balance}</p>
             <p>Network: {mETH?.network}</p>
             <p>BlockNumber: {mETH?.blockNumber}</p>
             <p>GasPrice: {mETH?.gasPrice}</p>
         </div>
         <div>
             <h3>GETH</h3>
-            <p>Tim's Eth: {gETH?.balance}</p>
+            <p>Tim&apos;s Eth: {gETH?.balance}</p>
             <p>Network: {gETH?.network}</p>
             <p>BlockNumber: {gETH?.blockNumber}</p>
             <p>GasPrice: {gETH?.gasPrice}</p>

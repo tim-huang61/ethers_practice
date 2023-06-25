@@ -170,7 +170,7 @@ const EthersCh03 = () => {
 
     return <>
         <div>
-            <h3>BETH's contract</h3>
+            <h3>BETH&apos;s contract</h3>
             <div>
                 <button onClick={readBETHContract}>Read</button>
             </div>
@@ -179,7 +179,7 @@ const EthersCh03 = () => {
             </p>
         </div>
         <div>
-            <h3>APE's contract</h3>
+            <h3>APE&apos;s contract</h3>
             <div>
                 <button onClick={readAPEContract}>Read</button>
             </div>
